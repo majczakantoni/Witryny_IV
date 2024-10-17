@@ -1,0 +1,16 @@
+body{
+    background-color: #fbf4db;
+}
+
+p{
+    font-size: 20px;
+    color: red;
+}
+
+div{
+    background-color: yellow;
+}
+
+span{
+    font-weight: bold;
+}

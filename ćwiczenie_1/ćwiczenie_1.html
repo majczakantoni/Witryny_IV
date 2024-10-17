@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style/styl.css">
+
+    <style>
+        p{
+            background-color: rgb(229, 236, 135);
+            color: hsl(240, 73%, 59%);
+            font-size: 25px;
+        }
+
+        h1{
+            color:brown;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ćwiczenie 1 - Wprowadzenie do styli</h1>
+
+    <p style="font-size:30px; color:purple;"><span>KASKADOWE ARKUSZE STYLÓW</span> to język służący do opisu formy prezentacji (wyświetlania) stron WWW.</p>
+
+    <div>
+        Style można dołączać następującymi sposobami:
+        <ul>
+            <li>Zewnętrzny arkusz CSS (osobny plik)</li>
+            <li>Znaczniki &lt;style&gt; w sekcji head</li>
+            <li><span>Style inline</span> (wewnątrz atrybutu znacznika)</li>
+        </ul>
+    </div>
+
+    <p>Istnieją trzy główne sposoby zainkludowania zapisów CSS do dokumentu HTML. W związku z tym istnieje także hierarchia ważności stylów. W przypadku powtarzających się selektorów to miejsce podpięcia zdecyduje o tym, który styl obowiązuje - zasada ogólna jest taka, iż to najpóźniej zdefiniowany w kodzie styl jest uważany za obowiązujący, gdyż "przesłania" poprzednie zapisy. Ale po kolei - najpierw poznajmy trzy sposoby inkludowania stylów.
+    <br>
+    W pojedynczym dokumencie HTML można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <span>&lt;link rel="stylesheet"&gt;</span> . W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. Zwykle tworzy się pojedynczy zewnętrzny arkusz i załącza go w całym serwisie, czyli na wszystkich podstronach. Czasami jednak dodatkowo poza nim projektuje się osobne arkusze, ustalające wygląd np. odrębnych kategorii tematycznych serwisu. Mamy wtedy sytuację, gdy na stronie głównej jest dołączony tylko jeden arkusz stylów, a na podstronach kategorii tematycznych - po dwa.
+    </p>
+    
+    
+</body>
+</html>
