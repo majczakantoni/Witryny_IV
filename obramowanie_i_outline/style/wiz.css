@@ -1,0 +1,22 @@
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+div{
+    width:500px;
+    height:300px;
+    background-color:blanchedalmond;
+    border: 10px double brown;
+}
+
+h1{
+    text-align: center;
+    border: 1px dashed darkolivegreen;
+    border-radius:1px;
+    background-color: rgb(184, 149, 149);
+    
+}
+
+p#bold{
+    font-weight: bold;
+}
