@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width:100%;
+        }
+        body{
+            width: 100%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+
+        h2{
+            margin-bottom: 0;
+            text-transform: uppercase;
+            background-color:#eeeeee;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p{
+            background-color:#eeeeee;
+            text-align: center;
+        }
+
+        td{
+            padding: 7px 10px 10px 10px;
+            
+        }
+
+        th{
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            border-top: 1px solid #999;
+            border-bottom: 2px solid #666 ;
+
+        }
+
+        .sacramento{
+            font-family: "Sacramento", serif;
+        }
+
+        .courier{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        tr:hover{
+            background-color: aquamarine;
+            color:blue;
+        }
+
+    </style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<body>
+
+    <h2>Stylizacja tabel</h2>
+    <p>za pomocą znanych już właściwości</p>
+
+    <table>
+        <tr><th>znaczenie</th><th>właściwość</th><th>przykładowa wartość</th></tr>
+        <tr><td class="sacramento">szerokość tabeli</td><td class="courier">width</td><td>600px</td></tr>
+        <tr><td class="sacramento">odległość między obramowaniem a zawartością komórki</td><td class="courier">padding</td><td>10px</td></tr>
+        <tr><td class="sacramento">pisanie nagłówków wielkimi literami</td><td class="courier">text-transform</td><td>uppercase</td></tr>
+        <tr><td class="sacramento">dodatkowa modyfikacja wyglądu nagłówka</td><td class="courier">letter-spacing</td><td>0.1em</td></tr>
+        <tr><td class="sacramento">określenie przykładowych obramowań</td><td class="courier">border-top/bottom</td><td>2px solid red</td></tr>
+        <tr><td class="sacramento">wyrównanie tekstu w komórce</td><td class="courier">text-align</td><td>center</td></tr>
+        <tr><td class="sacramento">kolorowanie wierszy</td><td class="courier">background-color</td><td>lightblue</td></tr>
+        <tr><td class="sacramento">podkreślenie wiersza, w którym aktualnie znajduję się kursor</td><td class="courier">:hover</td></tr>
+    </table>
+</body>
+</html>
