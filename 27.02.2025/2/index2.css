@@ -1,0 +1,36 @@
+.kontener1, .kontener2{
+    background-color:blue;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.menu1{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: lightgray ;
+    width: 88px;
+    text-align: center;
+    padding: 10px;
+    margin: 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.menu2{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: lightgray ;
+    width: 88px;
+    text-align: center;
+    padding: 10px;
+    margin: 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.menu2:hover{
+    background-color: black;
+    color:white;
+}

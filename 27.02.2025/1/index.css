@@ -1,0 +1,46 @@
+div{
+    background-color: lightcoral;
+}
+
+p{
+    background-color: lightcyan;
+}
+
+li{
+    background-color: aquamarine;
+}
+
+span{
+    background-color: blanchedalmond;
+}
+
+strong{
+    background-color: yellow;
+}
+
+em{
+    background-color: lightgoldenrodyellow;
+}
+
+.inline{
+    display: inline;
+}
+
+.block{
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: lightgray;
+    width:150px;
+    
+}
+/*.kontener1{
+    background-color: aqua;
+    width: 600px;
+    margin: 20px auto;
+}*/
